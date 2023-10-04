@@ -1,63 +1,51 @@
-*
-{
-	background-color: #181f21;
-	margin: 0;
-	padding: 0; 
+* {
+    background-color: #181f21;
+    margin: 0;
+    padding: 0;
 }
 
-h1 
-{
-	font-family: 'JetBrains Mono';
-	text-align: center;
-	color: aqua;
-}
-
-p
-{
-	font-family: 'JetBrains Mono';
-	font-size: 20px;
-	font-weight: bolder;
-	text-align: center;
-	color: antiquewhite;
-	margin-top: 10px;
-}
-.photo {
-    height: 50px;
-    margin: 0 auto; 
+h1 {
+    font-family: 'JetBrains Mono';
     text-align: center;
-    transition: transform 0.3s; 
+    color: aqua;
 }
 
-.photo:hover {
-    transform: scale(1.1); 
+p {
+    font-family: 'JetBrains Mono';
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: antiquewhite;
+    margin-top: 10px;
 }
 
-
-
-.cesa{
-	padding-left: 40%;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
+.homeimg {
+    /* width: 200px; */
+    /* height: 200px; */
+    /* text-align: center; */
+    /* transition: transform 0.3s; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
-
-header {
-    background-color: #333;
-    padding: 15px 0;
-	margin-bottom:21px ;
+header{
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
-
 .navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: right;
-    background-color: #333; 
+    /* background-color: #333; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #181f21;
+    
 }
 
 .navbar li {
     display: inline;
-    margin-right: 10px;
 }
 
 .navbar li a {
@@ -73,3 +61,16 @@ header {
     background-color: #fff;
     color: #00bfff;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+   
+}
+.cover {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: 500px;
+}
+  
